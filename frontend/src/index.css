@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  transition: all 0.2s ease;
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Nunito", sans-serif;
+}
+.active {
+  background: #334155;
+  border-radius: 10px;
+  padding: 0 20px;
+  color: #000000;
+}
+
+#assignment a.active {
+  background: #2563eb;
+  padding: 8px;
+  color: #fff;
+}
+#assignment a.active span {
+  color: #fff;
+}
